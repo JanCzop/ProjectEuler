@@ -3,7 +3,7 @@ public class Main {
         String wynik = "Wynik:";
         String czas = "Czas:";
         long start_time = System.currentTimeMillis();
-        long result = Problem8.find_highest_substring_product();
+        long result = Problem10.sum_all_primes();
         long end_time = System.currentTimeMillis() - start_time;
 
         int ADJUSTING = 7;
