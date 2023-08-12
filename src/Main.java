@@ -3,7 +3,7 @@ public class Main {
         String wynik = "Wynik:";
         String czas = "Czas:";
         long start_time = System.currentTimeMillis();
-        long result = Problem10.sum_all_primes();
+        String result = Problem13.calculate_problem();
         long end_time = System.currentTimeMillis() - start_time;
 
         int ADJUSTING = 7;
