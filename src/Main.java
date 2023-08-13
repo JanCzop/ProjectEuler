@@ -3,7 +3,7 @@ public class Main {
         String wynik = "Wynik:";
         String czas = "Czas:";
         long start_time = System.currentTimeMillis();
-        String result = Problem13.calculate_problem();
+        int result = Problem16.calculate_exponentiation();
         long end_time = System.currentTimeMillis() - start_time;
 
         int ADJUSTING = 7;
